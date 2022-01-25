@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
 
         mLightGrid = findViewById(R.id.light_grid);
 
-        mLightOnColor = ContextCompat.getColor(this, R.color.teal_200);
-        mLightOffColor = ContextCompat.getColor(this, R.color.black);
+        mLightOnColor = ContextCompat.getColor(this, R.color.yellow);
+        mLightOffColor = ContextCompat.getColor(this, R.color.grey);
 
         mGame = new LightsOutGame();
         startGame();
