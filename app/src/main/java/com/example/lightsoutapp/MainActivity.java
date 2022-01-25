@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.GridLayout;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import com.example.lightsoutapp.Model.LightsOutGame;
@@ -73,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
 
                 // Find the button in the grid layout at this row and col
                 int buttonIndex = row * LightsOutGame.GRID_SIZE + col;
-                Button gridButton = (Button) mLightGrid.getChildAt(buttonIndex);
+                ImageButton gridButton = (ImageButton) mLightGrid.getChildAt(buttonIndex);
 
                 if (mGame.isLightOn(row, col)) {
                     gridButton.setBackgroundColor(mLightOnColor);
