@@ -11,9 +11,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="25dp"
+        android:layout_marginTop="32dp"
         android:columnCount="3"
         android:rowCount="3"
         android:useDefaultMargins="true"
+        app:layout_constraintHorizontal_bias="0.141"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -67,43 +69,10 @@
     <Button
         android:id="@+id/new_game_button"
         style="@style/GameOptionButton"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="449dp"
+        android:layout_marginTop="137dp"
         android:onClick="onNewGameClick"
         android:text="@string/new_game"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/light_grid" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="195dp"
-        android:layout_height="51dp"
-        android:layout_marginStart="108dp"
-        android:layout_marginTop="406dp"
-        android:onClick="onHelpClick"
-        android:text="Help"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="195dp"
-        android:layout_height="51dp"
-        android:layout_marginStart="108dp"
-        android:layout_marginTop="473dp"
-        android:onClick="onChangeColorClick"
-        android:text="Change Color"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="195dp"
-        android:layout_height="51dp"
-        android:layout_marginStart="110dp"
-        android:layout_marginTop="547dp"
-        android:text="Browse"
-        android:onClick="LauchBrowse"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

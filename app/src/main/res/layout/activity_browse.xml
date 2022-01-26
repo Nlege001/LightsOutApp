@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BrowseActivity">
+
+    <Button
+        android:id="@+id/zybooks"
+        android:layout_width="218dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="44dp"
+        android:onClick="onButtonClick"
+        android:text="Browse Zybooks"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="218dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="100dp"
+        android:onClick="onCallClick"
+        android:text="Call"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="218dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="164dp"
+        android:onClick="onClickMaps"
+        android:text="Browse Maps"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="232dp"
+        android:autoLink="email"
+        android:text="example@gmail.com"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="218dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="276dp"
+        android:onClick="onShare"
+        android:text="Share URL via email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="184dp"
+        android:layout_height="162dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="432dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="218dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="340dp"
+        android:onClick="onFetch"
+        android:text="Fetch Image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

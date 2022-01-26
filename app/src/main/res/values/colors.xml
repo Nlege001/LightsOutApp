@@ -11,4 +11,8 @@
     <color name="yellow">#FF0</color>
     <color name="black">#000</color>
     <color name = "grey">#AEABAB</color>
+    <color name="red">#F00</color>
+    <color name="orange">#F80</color>
+    <color name="green">#0A0</color>
+
 </resources>
